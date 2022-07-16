@@ -6,7 +6,8 @@ describe '#greet_programmer' do
   it 'outputs the string "Hello, programmer!"' do
     expect { greet_programmer }.to output(a_string_including("Hello, programmer!")).to_stdout
   end
-  
+
+
 end
 
 describe '#greet' do
